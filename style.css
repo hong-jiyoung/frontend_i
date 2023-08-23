@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+img{
+    width: 50px;
+    height: 80px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+.wrapper{
+    max-width: 100em;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2em;
+    opacity: 1;
+    filter: none;
+    transition: opcity 1s ease, filter 1s ease;
+}
+
+#header{
+    padding: 4em 0 2em 0;
+    text-align: center;
+    display: block;
+}
+
+ul.icons{
+    cursor: pointer;
+    list-style: none;
+    padding-left: 0%;
+
+}
+
+ul{margin: 0 0 2em 0;
+}
+
+.thumbnails{
+    display: flex;
+    position: relative;
+
+}
+
+.thumbnails a {
+    transition: all 0.2s ease;
+    border-bottom: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+section{
+    font: inherit;
+    vertical-align: baseline;
+}
